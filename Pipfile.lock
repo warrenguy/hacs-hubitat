@@ -64,7 +64,7 @@
         "hubitatmaker": {
             "editable": true,
             "git": "https://github.com/warrenguy/hubitatmaker.git",
-            "ref": "3c8aa194cd278d7cc4ff0e5e16bcace60deec8e4"
+            "ref": "aef63f13a78082c3f8bf0222df33c7ebbc09d89a"
         },
         "idna": {
             "hashes": [

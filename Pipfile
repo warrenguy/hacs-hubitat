@@ -16,6 +16,7 @@ isort = "*"
 pre-commit = "*"
 
 [packages]
+hubitatmaker = {editable = true,git = "https://github.com/warrenguy/hubitatmaker.git"}
 
 [requires]
 python_version = "3.7"

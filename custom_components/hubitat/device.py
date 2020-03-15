@@ -167,7 +167,7 @@ class Hub:
         dreg = await device_registry.async_get_registry(self.hass)
         dreg.async_get_or_create(
             config_entry_id=self.config_entry.entry_id,
-            connections={(device_registry.CONNECTION_NETWORK_MAC, self._hub.mac)},
+            connections=({(device_registry.CONNECTION_NETWORK_MAC, self._hub.mac)} if self._hub.mac else {}),
             identifiers={(DOMAIN, self._hub.mac)},
             manufacturer="Hubitat",
             name="Hubitat Elevation",
